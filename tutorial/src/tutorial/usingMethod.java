@@ -1,0 +1,30 @@
+package tutorial;
+
+public class usingMethod {
+
+	public static String numbering(int start, int limit) {
+		int i = start ;
+		String output = "";
+		while (i < limit) {
+			System.out.println(i);
+			
+			output += i;
+			i++;
+		}
+		
+//		return output;
+	}
+	
+	public static void main(String[] args) {
+		// method의 사용
+		numbering(1, 3);
+	 }
+	
+	
+	public static String[] getMembers() {
+		String[] members = {"ava", "basd", "catch"};
+		return members;
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package tutorial;
+
+public class aRRAY {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] classGroup = {"ABA", "lobta", "ava"};
+		System.out.println(classGroup[0]);
+		for (int i =0; i < classGroup.length; i++) {
+			String cs = classGroup[i];
+			System.out.println(cs);
+		}
+		String[] members = {"jack", "stauber", "dana"}
+		for (String e : members) {
+			System.out.println(e + "has been arrived");
+		}
+
+	}
+
+}
