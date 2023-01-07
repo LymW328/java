@@ -1,0 +1,20 @@
+package tutorial;
+
+public class usingMethod {
+
+	public static void numbering(int start, int limit) {
+		int i = start ;
+		while (start < limit) {
+			System.out.println(i);
+			start++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		// method의 사용
+		numbering(1, 3);
+	 }
+	
+	
+
+}

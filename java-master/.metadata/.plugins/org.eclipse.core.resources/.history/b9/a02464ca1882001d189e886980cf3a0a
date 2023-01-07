@@ -1,0 +1,12 @@
+package tutorial;
+
+public class aRRAY {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] classGroup = {"임양원", "나혜승", "김수현"};
+		System.out.println(classGroup[0]);
+
+	}
+
+}

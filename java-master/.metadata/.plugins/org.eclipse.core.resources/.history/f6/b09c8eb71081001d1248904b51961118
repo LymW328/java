@@ -1,0 +1,9 @@
+package tutorial;
+
+public class string {
+
+	public static void main(String[] args) {
+		System.out.println("오보에는\"무겁다\"");
+	}
+
+}
